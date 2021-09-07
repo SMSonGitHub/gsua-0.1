@@ -32,4 +32,7 @@ Put "related:" in front of a web address you already know. For example, related:
 See Google’s cached version of a site
 Put "cache:" in front of the site address.
 
+To define a word
+Put "define:" before a word
+
 Important: Not all search operators return exhaustive results.
