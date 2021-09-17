@@ -1,11 +1,14 @@
 // background.js
-/*
-let color = '#3aa757';
+
+let myColor = "#3aa757";
+let myButtonSocialColor = "#800080";
 const handler = () => {
-    chrome.storage.sync.set({ color });
-    console.log('Default background color set to %cgreen', `color: ${color}`);
+  // get color
+  chrome.storage.sync.set({ color: myColor });
+  // console.log('Default background color set to %cgreen', `color: ${color}`);
+
+  // get buttonSocialColor
+  chrome.storage.sync.set({ buttonSocialColor: myButtonSocialColor });
+  // console.log('Default background color set to %cpurple', `buttonSocialColor: ${buttonSocialColor}`);
 };
 chrome.runtime.onInstalled.addListener(handler);
-*/
-
-
